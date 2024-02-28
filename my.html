@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <a href="https://www.delta.com/apac/en"><img style="height: 75px;" src="./new_pic.jpg" class="logo"></a>
+            <h1 style="padding: 20px;font-size: 30px;">We'll make your day Special</h1>
+            
+            <img style="height: 75px;border-radius: 200px;" src="./My_photo.jpg" class="profile" onclick="toggleMenu()">
+        </nav>
+    </div>
+    <br><br><br>
+    <div class="submenu-wrap" id="SUB">
+        <div class="submenu">
+            <div class="user-info">
+                <img src="./My_photo.jpg" alt="" class="alter">
+                <h2>SAI NIVEDH</h2>
+            </div>
+            
+            <hr>
+            <a href="#" class="submenu-link">
+                <img src="./My_photo.jpg" alt="" style="height: 75px;border-radius: 50%;">
+                <p>Edit profile</p>
+                <span> > </span>
+            </a>
+
+            <a href="#" class="submenu-link">
+                <img src="./doubt.png" alt="" style="height: 75px;border-radius: 50%;">
+                <p>Forgot password</p>
+                <span> > </span>
+            </a>
+
+            <a href="#" class="submenu-link">
+                <img src="./logout.png" alt="" style="height: 75px;border-radius: 50%;">
+                <p>Logout</p>
+                <span> > </span>
+            </a>
+        </div>
+    </div>
+    <br><br>
+    <div class="quick-nav" style="border-color: aquamarine;">
+        <h1 style="margin-left: 50px;">Quick Navigation</h1>
+        <br><br>
+        <ul class="boxx">
+            <a href="https://www.delta.com/apac/en" target="_blank" style="text-decoration: none;"><li>Book</li></a>
+    
+            <a href="https://www.delta.com/apac/en/skymiles/how-to-earn-miles" target="_blank" style="text-decoration: none;"><li>Check In</li></a>
+            <br>
+            <a href="https://www.delta.com/apac/en/change-cancel/overview" target="_blank" style="text-decoration: none;"><li>My Trips</li></a>
+            <br>
+            <a href="https://www.delta.com/apac/en/airports" target="_blank" style="text-decoration: none;"><li>Flight Status</li></a>
+            <br> 
+            <a href="https://www.delta.com/apac/en/need-help/overview" target="_blank" style="text-decoration: none;"><li>Need any Help ?</li></a>
+        </ul>
+
+    </div>
+    <div class="flight">
+        <img style="height: 50%;width: 50%;" src="data:image/jpeg;base64,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" class="nnm">
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div class="content">
+        <h1>Travel in our most comfortable and safest <p style="color: blue;"> Royal A380</p></h1>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <h1 class="nwaa"><u>What customers say about our service ?</u></h1>
+    <br><br>
+    <div class="tell">
+        <p class="newwq">"</p>
+        <p>The Ancient Origins: Delta Air Lines, my dear chums, is no mere fledgling. Nay, it is the United States’ oldest operating airline, a grandparent among aviation companies. Imagine it as a wise old owl with a penchant for altitude.</p>
+        <p class="newwwq1">"</p>
+        <br><br>
+        <h2 style="color: rgb(51, 57, 31);">Rowan Atkinson</h2>
+    </div>
+    <br><br>
+    
+    <div class="passby">
+        <a href="http://127.0.0.1:5500/my.html "><img style="border-radius: 50%;height: 75px;width: 75px;float: right;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAQlBMVEX///8AAAD19fWSkpKLi4v4+Pjw8PCQkJCEhIT09PSUlJSKiooKCgqdnZ38/PwGBgYZGRmfn5/Q0NA/Pz/j4+MQEBAbrSSuAAAD9ElEQVR4nO3c7XriIBCGYfOlJippu9vzP9VNu9pKEjIBIUCu5/7tamaBvIGxHg4AAAAAAAAAAAAAAAAAAAAAAAAAAABxtR9t7EsISjVVUTUq9mUEVFZFUVRl7MsIpzkVX05N7AsJpemK/7qdjmL5KHCvJZbV9afC6x7XYtP1xa++29taVE1X6Lp9hYb6jgndqdxTic20wH2FxmSKPiZq7AvzpZwvcD+hUVa9ocJ+H6HRdFdDgUMu7mGiGtbgbtaiKk+LBeYfGrMxoauyHsUVBeZdojEmRmsx2zvqzKOaYRQzLbFciAldppsptW6K3idqfmtRjgldfqGxeg0+5DZRld0Ifo9iVhN1ZUzocgoNpwJzmqjPp2o2sgkNYTexJIvQUKueRU1yaNsIMfH25225xOQnarMcE9fT39PyIk09NKQ1WB8Px3r5JWmvRSkmhgLVoRWeBlLORSkmzv+vvTkvvirh0NCbLzMFPlr45XKJqbZtps2XkcvP9kGVl+WXJtm2mWu+aOrnuVcKt5sUN1NC0F8vR+3lxzq30BCn6HH0D3ILjRUxMSaWmNQd1dx8uY/g3NUKt5uk2jZLzZcv5/lrFULjms4oSmvw3M7fGJVQYiprUTxVq81DITynJxIaUkzM3GR+tUJopNDTkDa8k5jQSXfU+CU6xIQu9dCQHtUu8vdlW2kUo5YoNV8MMTF6k4Q3U1LzxRQTo3dpUw0NOSbWXlmT6E5DWIN9vf476229/NQXZ6IKzZdeiAmduJmKMIgvx4QuvdAQC7T9s4rUQkM8VbO//aV1AifvJhzeNKHQsDhVs3pb6QRuu7aNeKrm+qdNqaxFqfliFRO6NE7gVjRf3KVwAuc5B8ekiRo+F1c2X9zFDg2x+fL650dt2wSKidGHRGzb2DVf3MVr21g2X9zFCg3r5ou7OKEROCZ0MTZTTs2XFz5Oekb1XqJj88Xd1idwfk7VrD5x07aNv1M1G1u2bcTmS5hfgtiubfNi88XdVm2bTWNCt01oeGi+uNti1795TOjCh4b0n+h0qmZ1AUJovHyXExZhkJjQCW2b1wdR3T6N727TfHG31Lb5vHnIRHUzLUS75os782aq91HgUOK74f0DxoTOGBp+Chzc5gvc7jetDPc7bwXOj6JD88Xd7AmcvwIPqpmOYvCY0M2Exs3niZSajKKPUzWrK5hsiW/K7xWMQmPDNfigr8Wrxyl69xwa/k7VbDyHRoACv0r8HcEYBWqhEaLApztqpAKfSgxT4M8oBt5NLLnvNEIVOITGe9wC7yV6jQmdGkZx65gYXcEQGr5jQldG//nR9iOZ77cDAAAAAAAAAAAAAAAAAAAAAAAAAIBc/QNGaCccOFl06AAAAABJRU5ErkJggg==" alt=""></a>
+    </div>
+    <div class="foot">
+        <div class="xxc">
+            <p class="fin1" style="color: #F0FFFF;"> 2024 ©Delta Air Lines, Inc.|Travel may be on other airlines.</p>
+            <br>
+            <p class="fin2" style="color: #F0FFFF;">Terms and conditions apply to all offers </p>
+        </div>
+        <div>
+            <h2 style="margin-left: 1200px;color: antiquewhite;margin-top: 100px;">About</h2>
+        </div>
+        <div class="line">
+            <hr style="color: whitesmoke;">
+        </div>
+        <div class="abt">
+            <p><mark>Sai Nivedh</mark></p>
+            <p>AI Student</p>
+            <p>School of AI</p>
+        </div>
+        <br><br><br>
+        <div class="contact">
+            <h2>Contact me</h2>
+        </div>
+        <div class="line-2">
+            <hr style="color: whitesmoke;width: 200px;margin-left: 580px;">
+        </div>
+        <div class="cot">
+            <a style="text-decoration: none;" href="https://www.linkedin.com/in/sainivedhai/" target="_blank"><h3><b>LinkedIn</b></h3></a>
+            <br>
+            <a style="text-decoration: none;" href="https://www.instagram.com/sai_nivedh_26/" target="_blank"><h3><b>Instagram</b></h3></a>            
+            <br>
+
+            <a style="text-decoration: none;" href="mailto:sainivedh26@gmail.com?subject=I%20need%20to%20collaborate&body=Hey%20there.%20I'd%20like%20to%20collaborate%20with%20you%20%5Byour%20purpose%5D" type="button" class="btn btn-primary btn-lg"><h3><b>Mail</b></h3></a>
+        </div>
+    </div>
+    
+    
+    <script>
+        let submenu = document.getElementById("SUB");
+        function toggleMenu(){
+            submenu.classList.toggle("openmenu")
+        }
+
+    </script>
+</body>
+</html>

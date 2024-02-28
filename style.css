@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: content-box;
+}
+.hero{
+    width: 1600px;
+    height: 75px;
+    background: #eceaff;
+    color: #ece3e3;
+
+}
+.alter{
+    
+    height: 75px;
+    border-radius: 50%;
+}
+nav{
+    background: #1a1a1a;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    justify-content:space-evenly;
+    position: fixed;
+    z-index: 1;
+}
+.profile{
+    cursor: pointer;
+}
+.submenu-wrap{
+    float: right;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+}
+.submenu-wrap.openmenu{
+    max-height: 600px;
+}
+.submenu{
+    background: rgb(212, 199, 237);
+    padding: 20px;
+    margin: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h2{
+    font-weight: 500;
+}
+.user-info img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.submenu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #773838;
+    margin: 15px;
+}
+.submenu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+.submenu p{
+    width: 100%;
+}
+.submenu-link img{
+    padding: 8px;
+    margin-right: 15px;
+}
+.submenu-link span{
+    font-size: 22px;
+    transition: 0.5s;
+}
+.submenu-link:hover span{
+    transform: translate(5px);
+}
+.submenu-link p:hover{
+    font-weight:700 ;
+}
+.quick-nav{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5iNKnBGs9rdAiMiJkDHJ-0hK5c57WKGtDw3_VNNCQSv3q745Lm7EtZ0hF_icIjckQi0Y&usqp=CAU");
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.quick-nav h1{
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+}
+.boxx{
+    font-weight: 500;
+    margin-left: 180px;
+}
+.boxx li{
+    color: white;
+    font-size: 2em;
+    transition: 0.5s;
+    
+    
+
+}
+.boxx li:hover{
+    cursor: pointer;
+    color:aliceblue;
+    font-size: 2.5em;
+    transform: scale(10.5s);
+}
+.flight{
+    margin-left: 900px;
+    margin-top: -400px;
+}
+.nnm{
+    transition: 0.5s;
+}
+.nnm:hover{
+    transform: rotate(25deg);
+}
+.content h1{
+    font-family: "Poppins", sans-serif;
+    margin-left: 750px;
+    font-size: 3rem;
+    margin-top: -100px;
+}
+.content p{
+    transition: 0.5s;
+}
+.content p:hover{
+    transform: scale(3.5rem);
+}
+.nwaa{
+    font-family: "Poppins", sans-serif;
+    margin-left: 450px;
+    font-size: 3rem;
+    color: #12063b;
+}
+.tell{
+    background: url("https://t4.ftcdn.net/jpg/01/36/56/49/360_F_136564967_2F3S1E04Wb4durBhjwyDaLefdeo6udnn.jpg");
+    height: 600px;
+    width: 500px;
+    margin-left: 500px;
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-weight: 500px;
+    font-size: 2em;
+}
+.newwq{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.newwwq1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: right;
+}
+.foot{
+    background-color: black;
+}
+.tell{
+    transition: 2s;
+}
+.tell:hover{
+    cursor:pointer;
+    border: #12063b;
+    transform: scale3d(1.01, 1.01, 1.01);
+    border-style:inset;
+}
+.foot{
+    background-color: #353935;
+    height: 700px;
+    border: #12063b;
+    width: 1520px;
+    padding: 10px 10%;
+
+}
+.fin1{
+    margin-top: 150px;
+}
+.xxc{
+    float: left;
+}
+.line{
+    
+    width: 200px;
+    margin-left: 1150px;
+}
+.abt{
+    margin-top: 50px;
+    margin-left: 1150px;
+    
+}
+.abt p{
+    color:#ece3e3 ;
+    font-size: 2rem;
+}
+.contact h2{
+    color: rgb(212, 199, 237);
+    margin-left: 600px;
+}
+.cot{
+    margin-top: 70px;
+    margin-left: 610px;
+}
+.cot h3{
+    font-family: 'Poppins',sans-serif;
+    color: chartreuse;
+    font-weight: 200;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.cot h3:hover{
+    color: rgb(133, 168, 98);
+    font-size: 40px;
+    transform: scale(60px);
+}
+.passby{
+    transition: 0.5s;
+}
+.passby:hover{
+    cursor: pointer;
+    transform: scale(100px);
+
+}
